@@ -1,3 +1,5 @@
+ADMINS_ID = [5649451092]
+
 AVAILABLE_15_PRO_MODELS_URL = 'https://reserve-prime.apple.com/AE/en_AE/reserve/A/availability.json'
 AVAILABLE_15_MODELS_URL = 'https://reserve-prime.apple.com/AE/en_AE/reserve/F/availability.json'
 
