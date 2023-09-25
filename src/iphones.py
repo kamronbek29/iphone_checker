@@ -29,7 +29,7 @@ async def check_phone_availability():
 
 async def start_checking_phones(chat_id):
     for i in range(999999999999):
-        await asyncio.sleep(10)
+        await asyncio.sleep(15)
 
         list_available_phones = await check_phone_availability()
 
