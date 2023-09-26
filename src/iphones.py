@@ -33,7 +33,7 @@ async def start_checking_phones(chat_id):
 
         list_available_phones = await check_phone_availability()
 
-        if list_available_phones == str:
+        if type(list_available_phones) == str:
             msg_to_send = f'#{i} - Какая то ошибка: {list_available_phones}'
             await send_message(chat_id, msg_to_send)
             continue
